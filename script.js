@@ -53,6 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     surpriseButton.addEventListener('click', function() {
       animationDiv.classList.toggle('hidden');
+      surpriseImage.classList.toggle('hidden');
       createParticles(window.innerWidth / 2, window.innerHeight / 2);
     });
   
